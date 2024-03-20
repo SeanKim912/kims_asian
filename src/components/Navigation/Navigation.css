@@ -1,0 +1,47 @@
+.nav-container {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 10px;
+  height: 5vh;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+}
+
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.tab {
+  margin-right: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: grey;
+  font-family: "FjallaOne";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: #990000;
+  text-decoration: underline;
+  text-decoration-color: #38761d;
+  text-decoration-thickness: 3px;
+  transition: color 0.5s;
+}
+
+.profile-dropdown {
+  position: absolute;
+}

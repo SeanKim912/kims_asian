@@ -1,0 +1,58 @@
+.contact-block {
+    background-size: cover;
+    height: 95vh;
+    font-size: 2rem;
+}
+
+.gradient-overlay2 {
+    background-image: linear-gradient(to right, transparent, black);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100vw;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'FjallaOne';
+    justify-content: space-between;
+    width: 30vw;
+    list-style-type: none;
+}
+
+.contact-header {
+    font-family: 'FjallaOne';
+    color: #38761d;
+}
+
+.contact-section {
+    color: white;
+}
+
+.contact-text {
+    color: #990000;
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    filter: invert(12%) sepia(54%) saturate(5808%) hue-rotate(2deg) brightness(93%) contrast(123%);
+}
+
+.social-media-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+}

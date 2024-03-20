@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'FjallaOne';
+    src: local('FjallaOne'),
+    url(../fonts/FjallaOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: local('NanumSquareRound'),
+    url(../fonts/NanumSquareRoundOTFR.otf) format('opentype');
+}
