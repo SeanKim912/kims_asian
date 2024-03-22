@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
 import Map from "./components/Map";
@@ -10,12 +10,12 @@ function App() {
   return (
     <>
       <Navigation />
-      <Switch>
+      <Routes>
         <Route path="/about" component={AboutUs} />
         <Route path="/products" component={Products} />
         <Route path="/contact" component={ContactUs} />
         <Route path="/" component={AboutUs} />
-      </Switch>
+      </Routes>
     </>
   );
 }

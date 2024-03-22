@@ -1,5 +1,5 @@
 import "./ContactUs.css";
-import Map from '../Map/Map';
+import Map from '../Map';
 
 import catset from '../../images/catset.png';
 import instagram from '../../images/instagram.svg';
