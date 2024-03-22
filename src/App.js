@@ -8,7 +8,7 @@ import Products from "./components/Products";
 
 function App() {
   return (
-    <>
+    <div>
       <Navigation />
       <Routes>
         <Route path="/about" component={AboutUs} />
@@ -16,7 +16,7 @@ function App() {
         <Route path="/contact" component={ContactUs} />
         <Route path="/" component={AboutUs} />
       </Routes>
-    </>
+    </div>
   );
 }
 
